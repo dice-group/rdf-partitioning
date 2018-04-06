@@ -23,7 +23,22 @@ We provide the datasets and queries of the benchmarmks and real-world datasets u
  [DBpedia BGP-only](https://www.google.com) | [DBpedia Fully-featured](https://www.google.com) |
 |-----------------------|------------|---------------------|-----------|
 
-#### Virtuoso Stores 
+#### Virtuoso Stores (based on SWDF)
+
+| *Predicate-based* | *Subject-based* | *Hierarchical* | *Horizontal* | *TCV-Min* | *Min-Edgecut* | *Recursive-bisection* |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| [Partition 0](/data/docker/ftp/data/public/rdf-partitioning/virtuosoLinuxServers/Predicate-based/SWDF/Partition0/template-virtuoso-7.1-64bit-linux) | [Partition 0](/data/docker/ftp/data/public/rdf-partitioning/virtuosoLinuxServers/Subject-based/SWDF/Partition0/template-virtuoso-7.1-64bit-linux) | [Partition 0](/data/docker/ftp/data/public/rdf-partitioning/virtuosoLinuxServers/Hierarchical/SWDF/Partition0/template-virtuoso-7.1-64bit-linux) | [Partition 0](/data/docker/ftp/data/public/rdf-partitioning/virtuosoLinuxServers/Horizontal/SWDF/Partition0/template-virtuoso-7.1-64bit-linux) | [Partition 0](/data/docker/ftp/data/public/rdf-partitioning/virtuosoLinuxServers/TCV-Min/SWDF/Partition0/template-virtuoso-7.1-64bit-linux) | [Partition 0]/data/docker/ftp/data/public/rdf-partitioning/virtuosoLinuxServers/Min-Edgecut/SWDF/Partition0/template-virtuoso-7.1-64bit-linux) | [Partition 0](/data/docker/ftp/data/public/rdf-partitioning/virtuosoLinuxServers/Recursive-bisection/SWDF/Partition0/template-virtuoso-7.1-64bit-linux) |
+| [Partition 1](https://www.google.com) | [Partition 1](https://www.google.com) | [Partition 1](https://www.google.com) | [Partition 1](https://www.google.com) | [Partition 1](https://www.google.com) | [Partition 1](https://www.google.com) | [Partition 1](https://www.google.com) |
+| [Partition 2](https://www.google.com) | [Partition 2](https://www.google.com) | [Partition 2](https://www.google.com) | [Partition 2](https://www.google.com) | [Partition 2](https://www.google.com) | [Partition 2](https://www.google.com) | [Partition 2](https://www.google.com) |
+| [Partition 3](https://www.google.com) | [Partition 3](https://www.google.com) | [Partition 3](https://www.google.com) | [Partition 3](https://www.google.com) | [Partition 3](https://www.google.com) | [Partition 3](https://www.google.com) | [Partition 3](https://www.google.com) |
+| [Partition 4](https://www.google.com) | [Partition 4](https://www.google.com) | [Partition 4](https://www.google.com) | [Partition 4](https://www.google.com) | [Partition 4](https://www.google.com) | [Partition 4](https://www.google.com) | [Partition 4](https://www.google.com) |
+| [Partition 5](https://www.google.com) | [Partition 5](https://www.google.com) | [Partition 5](https://www.google.com) | [Partition 5](https://www.google.com) | [Partition 5](https://www.google.com) | [Partition 5](https://www.google.com) | [Partition 5](https://www.google.com) |
+| [Partition 6](https://www.google.com) | [Partition 6](https://www.google.com) | [Partition 6](https://www.google.com) | [Partition 6](https://www.google.com) | [Partition 6](https://www.google.com) | [Partition 6](https://www.google.com) | [Partition 6](https://www.google.com) |
+| [Partition 7](https://www.google.com) | [Partition 7](https://www.google.com) | [Partition 7](https://www.google.com) | [Partition 7](https://www.google.com) | [Partition 7](https://www.google.com) | [Partition 7](https://www.google.com) | [Partition 7](https://www.google.com) |
+| [Partition 8](https://www.google.com) | [Partition 8](https://www.google.com) | [Partition 8](https://www.google.com) | [Partition 8](https://www.google.com) | [Partition 8](https://www.google.com) | [Partition 8](https://www.google.com) | [Partition 8](https://www.google.com) |
+| [Partition 9](https://www.google.com) | [Partition 9](https://www.google.com) | [Partition 9](https://www.google.com) | [Partition 9](https://www.google.com) | [Partition 9](https://www.google.com) | [Partition 9](https://www.google.com) | [Partition 9](https://www.google.com) |
+
+#### Virtuoso Stores (based on DBpedia)
 
 | *Predicate-based* | *Subject-based* | *Hierarchical* | *Horizontal* | *TCV-Min* | *Min-Edgecut* | *Recursive-bisection* |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
@@ -37,6 +52,9 @@ We provide the datasets and queries of the benchmarmks and real-world datasets u
 | [Partition 7](https://www.google.com) | [Partition 7](https://www.google.com) | [Partition 7](https://www.google.com) | [Partition 7](https://www.google.com) | [Partition 7](https://www.google.com) | [Partition 7](https://www.google.com) | [Partition 7](https://www.google.com) |
 | [Partition 8](https://www.google.com) | [Partition 8](https://www.google.com) | [Partition 8](https://www.google.com) | [Partition 8](https://www.google.com) | [Partition 8](https://www.google.com) | [Partition 8](https://www.google.com) | [Partition 8](https://www.google.com) |
 | [Partition 9](https://www.google.com) | [Partition 9](https://www.google.com) | [Partition 9](https://www.google.com) | [Partition 9](https://www.google.com) | [Partition 9](https://www.google.com) | [Partition 9](https://www.google.com) | [Partition 9](https://www.google.com) |
+
+
+
 
 
 ### Authors 
