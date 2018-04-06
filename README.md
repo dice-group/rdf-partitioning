@@ -29,6 +29,6 @@ We provide the datasets and queries of the benchmarmks and real-world datasets u
 
 #### Virtuoso Stores 
 
-| *Predicate-based* | *Subject-based* | *Hierarchical* | *Horizontal* | *TGV-min* | *Min-Edgecut* | *Recursive-bisection* |
+| *Predicate-based* | *Subject-based* | *Hierarchical* | *Horizontal* | *TCV-Min* | *Min-Edgecut* | *Recursive-bisection* |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 
