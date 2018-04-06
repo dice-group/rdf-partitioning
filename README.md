@@ -40,7 +40,7 @@ We provide the datasets and queries of the benchmarmks and real-world datasets u
 
 
 ### Authors 
-* [Adnan Akhter]()
+* [Adnan Akhter](http://dice.cs.uni-paderborn.de/team/profiles/akhter/) (AKSW, University of Leipzig)
 * [Muhammad Saleem](https://sites.google.com/site/saleemsweb/) (AKSW, University of Leipzig)
 * [Axel-Cyrille Ngonga Ngomo](http://aksw.org/AxelNgonga.html) (AKSW, University of Leipzig)
 
