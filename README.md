@@ -5,7 +5,7 @@ We provide the datasets and queries of the benchmarmks and real-world datasets u
 
 ### Persistent URI, Licence 
 All of the data and results presented in our evaluation are available online from
-https://github.com/dice-group/triplestore-benchmarks under [GNU General Public License v3.0](https://github.com/dice-group/triplestore-benchmarks/blob/master/LICENSE).
+https://github.com/AKSW/rdf-partitioning under [GNU General Public License v3.0](https://github.com/AKSW/rdf-partitioning/blob/master/LICENSE).
 
 ### Canonical Citation
 Adnan Akhter, Muhammad Saleem and Axel-Cyrille Ngonga Ngomo. "An Empirical Evaluation of RDF Graph Partitioning Methods" In International Semantic Web Conference, 2018.
