@@ -32,7 +32,6 @@ We provide the datasets and queries of the benchmarmks and real-world datasets u
 | *Predicate-based* | *Subject-based* | *Hierarchical* | *Horizontal* | *TCV-Min* | *Min-Edgecut* | *Recursive-bisection* |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | [Partition0](https://www.google.com) | [Partition0](https://www.google.com) | [Partition0](https://www.google.com) | [Partition0](https://www.google.com) | [Partition0](https://www.google.com) | [Partition0](https://www.google.com) | [Partition0](https://www.google.com) |
-
 | [Partition1](https://www.google.com) | [Partition1](https://www.google.com) | [Partition1](https://www.google.com) | [Partition1](https://www.google.com) | [Partition1](https://www.google.com) | [Partition1](https://www.google.com) | [Partition1](https://www.google.com) |
 
 
