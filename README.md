@@ -27,4 +27,8 @@ We provide the datasets and queries of the benchmarmks and real-world datasets u
  [DBpedia BGP-only](https://www.google.com) | [DBpedia Fully-featured](https://www.google.com) |
 |-----------------------|------------|---------------------|-----------|
 
+#### Virtuoso Stores 
+
+| *Predicate-based* | *Subject-based* | *Hierarchical* | *Horizontal* | *TGV-min* | *Min-Edgecut* | *Recursive-bisection* |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 
