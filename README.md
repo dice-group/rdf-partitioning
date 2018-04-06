@@ -15,12 +15,12 @@ We provide the datasets and queries of the benchmarmks and real-world datasets u
 
 
 #### Datasets 
-| [Semantic Web Dog Food (SWDF)](https://www.google.com) | [DBpedia](https://www.youtube.com) |
+| [Semantic Web Dog Food (SWDF)](https://hobbitdata.informatik.uni-leipzig.de/benchmarks-data/datasets-dumps/) | [DBpedia](http://downloads.dbpedia.org/3.5.1/en/) |
 |----------------------------|-----------|
 
 #### Benchmark Queries 
-| [SWDF BGP-only](https://www.google.com) | [SWDF Fully-featured](https://www.google.com) |
- [DBpedia BGP-only](https://www.google.com) | [DBpedia Fully-featured](https://www.google.com) |
+| [SWDF BGP-only](https://hobbitdata.informatik.uni-leipzig.de/rdf-partitioning/benchmarkQueries/) | [SWDF Fully-featured](https://hobbitdata.informatik.uni-leipzig.de/rdf-partitioning/benchmarkQueries/) |
+ [DBpedia BGP-only](https://hobbitdata.informatik.uni-leipzig.de/rdf-partitioning/benchmarkQueries/) | [DBpedia Fully-featured](https://hobbitdata.informatik.uni-leipzig.de/rdf-partitioning/benchmarkQueries/) |
 |-----------------------|------------|---------------------|-----------|
 
 #### Virtuoso Stores (based on SWDF)
