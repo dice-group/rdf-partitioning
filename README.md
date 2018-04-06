@@ -19,7 +19,9 @@ We provide the datasets and queries of the benchmarmks and real-world datasets u
 |[DBpedia](https://www.youtube.com)|
 
 #### Datasets 
-[Semantic Web Dog Food (SWDF)](https://www.google.com), [DBpedia](https://www.youtube.com) </br>
+| [Semantic Web Dog Food (SWDF)](https://www.google.com) | [DBpedia](https://www.youtube.com) |
+|----------------------------|-----------|
+
 *Benchmark Queries* [SWDF BGP-only](https://www.google.com), [SWDF Fully-featured](https://www.google.com)
                 [DBpedia BGP-only](https://www.google.com), [DBpedia Fully-featured](https://www.google.com)
 
