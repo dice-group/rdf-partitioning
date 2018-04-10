@@ -59,9 +59,10 @@ We provide the datasets and queries of the benchmarmks and real-world datasets u
  2. The built JAR can be found in the target directory, replace target/koral.jar with [koral.jar](https://hobbitdata.informatik.uni-leipzig.de/rdf-partitioning/jars/koral.jar)
  3. Enums at command prompt for partitioning methods for dataset loading are:
  SUBJECT for Subject-based, HIERARCHICAL for Hierarchical, MIN_EDGE_CUT for MIN-Edgecut, PREDICATE for Predicate-based, HORIZONTAL for     Horizontal, TCV_MIN for TCV_Min and RECURSIVE for Recursive-bisection
- An example format is:
+ ```html
+ ###An example format is###
  java -jar benchmark-util.jar target/koral.jar client -i 127.0.0.1 -m 127.0.0.1:4711 load -c SUBJECT <datasetFile>
-
+```
 
 ### Authors 
 * [Adnan Akhter](http://dice.cs.uni-paderborn.de/team/profiles/akhter/) (AKSW, University of Leipzig)
