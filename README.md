@@ -60,9 +60,12 @@ We provide the datasets and queries of the benchmarmks and real-world datasets u
  3. Enums at command prompt for partitioning methods for dataset loading are:
  SUBJECT for Subject-based, HIERARCHICAL for Hierarchical, MIN_EDGE_CUT for MIN-Edgecut, PREDICATE for Predicate-based, HORIZONTAL for     Horizontal, TCV_MIN for TCV_Min and RECURSIVE for Recursive-bisection.
  ```html
- ###An example format is###
+ ###An example format###
  java -jar benchmark-util.jar target/koral.jar client -i 127.0.0.1 -m 127.0.0.1:4711 load -c SUBJECT <datasetFile>
 ```
+
+4. In order to generate the chunks without loading them into the slaves, start only the master with the additional parameter -o . This parameter will stop the loading procedure before sending the graph chunks to the slaves. The dictionary can be found at <dataDir>/master/dictionary and the graph chunks under <tmpDir>/master/koral_client_0/ . <dataDir> and <tmpDir> are the directories configured in the used configuration file. The chunks can be translated from encoded file to n-triples by using [ChunkTranslator](https://github.com/Institute-Web-Science-and-Technologies/koral/blob/release/src/main/java/playground/ChunkTranslator.java). 
+
 
 ### Authors 
 * [Adnan Akhter](http://dice.cs.uni-paderborn.de/team/profiles/akhter/) (AKSW, University of Leipzig)
