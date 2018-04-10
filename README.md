@@ -23,7 +23,7 @@ We provide the datasets and queries of the benchmarmks and real-world datasets u
  [DBpedia BGP-only](https://hobbitdata.informatik.uni-leipzig.de/rdf-partitioning/benchmarkQueries/) | [DBpedia Fully-featured](https://hobbitdata.informatik.uni-leipzig.de/rdf-partitioning/benchmarkQueries/) |
 |-----------------------|------------|---------------------|-----------|
 
-#### Virtuoso Stores (based on SWDF)
+### Virtuoso Stores (based on SWDF)
 
 | *Predicate-based* | *Subject-based* | *Hierarchical* | *Horizontal* | *TCV-Min* | *Min-Edgecut* | *Recursive-bisection* |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
@@ -54,6 +54,13 @@ We provide the datasets and queries of the benchmarmks and real-world datasets u
 | [Partition 9](https://hobbitdata.informatik.uni-leipzig.de/rdf-partitioning/virtuosoLinuxServers/Predicate-based/DBpedia/Partition9/template-virtuoso-7.1-64bit-linux) | [Partition 9](https://hobbitdata.informatik.uni-leipzig.de/rdf-partitioning/virtuosoLinuxServers/Subject-based/DBpedia/Partition9/template-virtuoso-7.1-64bit-linux) | [Partition 9](https://hobbitdata.informatik.uni-leipzig.de/rdf-partitioning/virtuosoLinuxServers/Hierarchical/DBpedia/Partition9/template-virtuoso-7.1-64bit-linux) | [Partition 9](https://hobbitdata.informatik.uni-leipzig.de/rdf-partitioning/virtuosoLinuxServers/Horizontal/DBpedia/Partition9/template-virtuoso-7.1-64bit-linux) | [Partition 9](https://hobbitdata.informatik.uni-leipzig.de/rdf-partitioning/virtuosoLinuxServers/TCV-Min/DBpedia/Partition9/template-virtuoso-7.1-64bit-linux) | [Partition 9](https://hobbitdata.informatik.uni-leipzig.de/rdf-partitioning/virtuosoLinuxServers/Min-Edgecut/DBpedia/Partition9/template-virtuoso-7.1-64bit-linux) | [Partition 9](https://hobbitdata.informatik.uni-leipzig.de/rdf-partitioning/virtuosoLinuxServers/Recursive-bisection/DBpedia/Partition9/template-virtuoso-7.1-64bit-linux) |
 
 
+### Reproducing Results
+ 1. Download the [Koral](https://github.com/Institute-Web-Science-and-Technologies/koral) project.
+ 2. The built JAR can be found in the target directory, replace target/koral.jar with [koral.jar](https://hobbitdata.informatik.uni-leipzig.de/rdf-partitioning/jars/koral.jar)
+ 3. Enums at command prompt for partitioning methods for dataset loading are:
+ SUBJECT for Subject-based, HIERARCHICAL for Hierarchical, MIN_EDGE_CUT for MIN-Edgecut, PREDICATE for Predicate-based, HORIZONTAL for     Horizontal, TCV_MIN for TCV_Min and RECURSIVE for Recursive-bisection
+ An example format is:
+ java -jar benchmark-util.jar target/koral.jar client -i 127.0.0.1 -m 127.0.0.1:4711 load -c SUBJECT <datasetFile>
 
 
 ### Authors 
