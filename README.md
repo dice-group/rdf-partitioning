@@ -56,19 +56,19 @@ We provide the datasets and queries of the benchmarmks and real-world datasets u
 
 ### Reproducing Results
 
- 1. Download and built [Koral](https://github.com/Institute-Web-Science-and-Technologies/koral) project, and follow rest of the procedure.
+ 1. Download and built [Koral](https://github.com/Institute-Web-Science-and-Technologies/koral) project.
  2. The built JAR can be found in the target directory, please replace target/koral.jar with [koral.jar](https://hobbitdata.informatik.uni-leipzig.de/rdf-partitioning/jars/koral.jar)
- 3. Enums at command prompt for partitioning methods for dataset loading are:
+ 3. Please follow the remaining steps given by Koral.
+4. Enums at command prompt for partitioning methods for dataset loading are:
  SUBJECT for Subject-based, HIERARCHICAL for Hierarchical, MIN_EDGE_CUT for MIN-Edgecut, PREDICATE for Predicate-based, HORIZONTAL for     Horizontal, TCV_MIN for TCV_Min and RECURSIVE for Recursive-bisection.
  ```html
  ###An example format###
  java -jar target/koral.jar client -i 127.0.0.1 -m 127.0.0.1:4711 load -c SUBJECT <datasetFile>
 ```
-4. Follow the remaining procedure given by [Koral](https://github.com/Institute-Web-Science-and-Technologies/koral) project, and follow rest of the procedure.
 
 4. In order to generate the graph chunks without loading them into the slaves, start only the master with the additional parameter -o . This parameter will stop the loading procedure before sending the graph chunks to the slaves. The dictionary can be found at <dataDir>/master/dictionary and the graph chunks under <tmpDir>/master/koral_client_0/ . <dataDir> and <tmpDir> are the directories configured in the used configuration file. The chunks can be translated from encoded file into n-triples by using [ChunkTranslator](https://github.com/Institute-Web-Science-and-Technologies/koral/blob/release/src/main/java/playground/ChunkTranslator.java). 
 
-5. For development purpose, there are six classes provided in src folder, please replace/add in relevant packages in Koral
+5. For development purposes, there are six classes provided in src folder, please replace/add in relevant packages in Koral
 ### Authors 
 * [Adnan Akhter](http://dice.cs.uni-paderborn.de/team/profiles/akhter/) (AKSW, University of Leipzig)
 * [Muhammad Saleem](https://sites.google.com/site/saleemsweb/) (AKSW, University of Leipzig)
