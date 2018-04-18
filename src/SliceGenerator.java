@@ -17,7 +17,7 @@ import de.uni_koblenz.west.koral.master.dictionary.DictionaryEncoder;
 
 /**
  *
- * @author Adnan, Akhter, Axel Ngonga and M. Saleem
+ * @author Adnan Akhter, Axel Ngonga and M. Saleem
  */
 public class SliceGenerator  extends GraphCoverCreatorBase {
 
