@@ -7,14 +7,13 @@ import java.util.List;
 import java.util.Set;
 import java.util.logging.Logger;
 
-import de.uni_koblenz.west.koral.client.KoralClient;
 import de.uni_koblenz.west.koral.common.io.EncodedFileInputStream;
 import de.uni_koblenz.west.koral.common.io.EncodedFileOutputStream;
 import de.uni_koblenz.west.koral.common.io.EncodingFileFormat;
 import de.uni_koblenz.west.koral.common.io.Statement;
 import de.uni_koblenz.west.koral.common.measurement.MeasurementCollector;
 import de.uni_koblenz.west.koral.master.dictionary.DictionaryEncoder;
-import playground.FilePath;
+
 
 /**
  *
