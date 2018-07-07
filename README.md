@@ -8,7 +8,7 @@ All of the data and results presented in our evaluation are available online fro
 https://github.com/AKSW/rdf-partitioning under [GNU General Public License v3.0](https://github.com/AKSW/rdf-partitioning/blob/master/LICENSE).
 
 ### Canonical Citation
-Adnan Akhter, Muhammad Saleem and Axel-Cyrille Ngonga Ngomo. "An Empirical Evaluation of RDF Graph Partitioning Methods" In International Semantic Web Conference, 2018.
+Adnan Akhter, Muhammad Saleem and Axel-Cyrille Ngonga Ngomo. "An Empirical Evaluation of RDF Graph Partitioning Techniques" In International Conference on Knowledge Engineering and Knowledge Management, 2018.
 
 ### Benchmark Datasets and Queries
 We provide the datasets and queries of the benchmarmks and real-world datasets used in our evaluation. The datasets are also provided as portable virtuoso triplestores which can be started from bin/start_virtuoso.sh.
